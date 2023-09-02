@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Averia+Gruesa+Libre&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Averia Gruesa Libre', cursive;
+}
+
+.tamanho {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.kyo {
+    background-image: url(./Busty_Vampire_Blood_\ 4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.kyo::before {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.nome-kyo {
+    font-size: 3em;
+    text-shadow: 2px 2px 20px #c5365c;
+    text-transform: uppercase;
+}
+
+.container-kyo {
+    position: absolute;
+    color: #c5365c;
+    width: 60%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.descricao-kyo {
+    font-size: 1.2rem;
+    font-weight: 800;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.descricao-kyo strong {
+    color: white;
+}
+
+.botao-kyo-princ {
+    display: flex;
+    gap: 2rem;
+}
+
+.botao-kyo {
+    border: 3px solid #c5365c;
+    background: none;
+    padding: 0.7rem;
+    border-radius: 20px;
+    margin-bottom: 1rem;
+}
+
+.botao-kyo:hover {
+    transform: scale(1.1);
+    background-color:#c5365c;
+    border: 3px solid #000000
+}
+
+.kyo-imagem-botao {
+    width: 40px;
+    height: 40px;
+}
+
+.alerta-kyo {
+    color: white;
+}
