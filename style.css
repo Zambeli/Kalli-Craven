@@ -90,3 +90,21 @@
 .alerta-kyo {
     color: white;
 }
+
+@media screen and (max-width: 655px) {
+
+    .container-kyo {
+        position: absolute;
+        color: #c5365c;
+        width: 90%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 1rem 0 0 0;
+        justify-content: center;
+    }
+    
+
+
+}
