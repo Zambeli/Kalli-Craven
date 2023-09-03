@@ -9,23 +9,15 @@
     font-family: 'Averia Gruesa Libre', cursive;
 }
 
-.tamanho {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-}
-
-.kyo {
-    background-image: url(./Busty_Vampire_Blood_\ 4.png);
-    background-position: center;
+body {
+    background-image: url(./Vampire3.png);
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
-    align-items: center;
-    justify-content: center;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-attachment: fixed;
 }
 
-.kyo::before {
+body::before {
     content: "";
     background-color: rgba(0, 0, 0, 0.5);
     position: absolute;
@@ -34,6 +26,24 @@
     right: 0;
     bottom: 0;
 }
+
+.container-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+
+.tamanho {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.kyo {
+    align-items: center;
+    justify-content: center;
+}
+
 
 .nome-kyo {
     font-size: 3em;
@@ -79,7 +89,7 @@
 .botao-kyo:hover {
     transform: scale(1.1);
     background-color:#c5365c;
-    border: 3px solid #000000
+    border: 3px solid #ffffff
 }
 
 .kyo-imagem-botao {
@@ -88,7 +98,69 @@
 }
 
 .alerta-kyo {
+    color: rgb(247, 243, 3);
+}
+
+.titulo-kyo {
+    margin-top: 4rem;
+    font-size: 2rem;
+}
+
+.desenhos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.demonstraçoes {
+    width: 800px;
+    height: 800px;
+    border-radius: 20px;
+    opacity: 0.5;
+    filter: grayscale(100%)hue-rotate(300deg);
+    transition: 1s;
+}
+
+.demonstraçoes:hover {
+    opacity: 1;
+    filter: none;
+    transform: scale(1.1);
+}
+
+.demonstracoes-desenho {
+    display: flex;
+    justify-content: space-around;
+    gap: 80px;
+    padding: 20px;
+    flex-wrap: wrap;
+
+}
+
+
+.tamanho2 {
+    color: #c5365c;
+    background-color: rgba(0, 0, 0, 0.5);
+    align-items: first baseline;
+}
+
+
+.white {
     color: white;
+}
+
+
+.ibuki {
+    width: 800px;
+    height: 1000px;
+}
+
+
+.pix {
+    width: 50px;
+    height: 50px;
 }
 
 @media screen and (max-width: 655px) {
@@ -101,10 +173,30 @@
         display: flex;
         align-items: center;
         flex-direction: column;
-        padding: 1rem 0 0 0;
+        padding: 5rem 0 0 0;
         justify-content: center;
     }
     
+    .demonstracoes-desenho {
+        flex-direction: column;
+    }
 
+    .titulo-kyo {
+        font-size: 1rem;
+    }
+
+    .demonstraçoes {
+        width: 300px;
+        height: 300px;
+        border-radius: 20px;
+        opacity: 0.5;
+        filter: grayscale(100%)hue-rotate(300deg);
+        transition: 1s;
+    }
+
+    .ibuki {
+        width: 320px;
+        height: 500px;
+    }
 
 }
