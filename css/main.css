@@ -9,12 +9,13 @@
     font-family: 'Averia Gruesa Libre', cursive;
 }
 
-body {
-    background-image: url(./Vampire3.png);
+body{
+    background-image: url(../img/Vampire3.png);
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    user-select: none;
 }
 
 body::before {
@@ -161,6 +162,16 @@ body::before {
 .pix {
     width: 50px;
     height: 50px;
+}
+
+.redc {
+    color: #ffa5a5;
+}
+
+.espaço-botao {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 @media screen and (max-width: 655px) {

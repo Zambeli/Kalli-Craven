@@ -1,0 +1,97 @@
+
+body{
+    background-image: url(../img/Vampire3.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    user-select: none;
+    position: relative;
+}
+
+body::before {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.botao {
+    border: none;
+    width: 400px;
+    height: 50px;
+    background-color: transparent;
+    color: #c5365c;
+    border: 2px solid #c5365c;
+    font-size: 2rem;
+    transition: 0.5s;
+    position: relative;
+}
+
+.botao:hover {
+    width: 450px;
+    height: 60px;
+    font-size: 2.5rem;
+    background-color: #c5365c;
+    color: #fc9eb7;
+}
+
+.corpo-inteiro-home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.desenhos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.demonstraçoes {
+    width: 800px;
+    height: 800px;
+    border-radius: 20px;
+    opacity: 0.5;
+    filter: grayscale(100%)hue-rotate(300deg);
+    transition: 1s;
+}
+
+.demonstraçoes:hover {
+    opacity: 1;
+    filter: none;
+    transform: scale(1.1);
+}
+
+.desenhos-box {
+    color: white;
+    gap: 10px;
+}
+
+
+.botao-box {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.precos {
+    padding: 1rem;
+    font-size: 2rem;
+    color: white;
+    display: flex;
+    text-align: center;
+}
