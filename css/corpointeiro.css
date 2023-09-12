@@ -95,3 +95,8 @@ body::before {
     display: flex;
     text-align: center;
 }
+
+.termo {
+    gap: 40px;    
+    background-color: rgba(0, 0, 0, 0.5);
+}
