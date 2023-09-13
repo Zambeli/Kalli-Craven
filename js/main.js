@@ -1,11 +1,14 @@
-const voltar = document.querySelector('#voltar')
-const terms = document.querySelector('#terms')
+const voltar = document.querySelector('#inicio')
+const termos = document.querySelector('#terms')
 
-terms.addEventListener('click', () => {
+termos.addEventListener('click', termoss)
+
+voltar.addEventListener('click', inicio)
+
+function termoss () {
     window.location = '../termos.html'
-})
+}
 
-voltar.addEventListener('click', () => {
-    window.location = '../index.html'
-})
-
+function inicio () {
+    window.location = './index.html'
+}
