@@ -1,4 +1,4 @@
-const audioEaster = new Audio ('../src/easterEgg.mp3')
+const audioEaster = new Audio ('../sons/easterEgg.mp3')
 const easterEgg = document.querySelector('#easteregg')
 
 easterEgg.addEventListener('click', () => {
