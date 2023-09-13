@@ -20,7 +20,7 @@ body{
 
 body::before {
     content: "";
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
     position: absolute;
     top: 0;
     left: 0;
@@ -112,8 +112,10 @@ body::before {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    gap: 30px;
+    gap: 50px;
     flex-wrap: wrap;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 
 .demonstraçoes {
@@ -142,9 +144,14 @@ body::before {
 
 
 .tamanho2 {
+    padding-top: 2rem;
     color: #c5365c;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
     align-items: first baseline;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 
@@ -158,20 +165,77 @@ body::before {
     height: 1000px;
 }
 
+.nsfw {
+    width: 800px;
+    height: 1100px;
+}
 
-.pix {
-    width: 50px;
-    height: 50px;
+
+.paypal {
+    width: 80px;
+    height: 80px;
 }
 
 .redc {
-    color: #ffa5a5;
+    color: #c5365c;
 }
+
 
 .espaço-botao {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 40px;
+}
+
+.termos-body {
+    position: relative;
+}
+
+.termos {
+    position: relative;
+    color: #c5365c;
+    padding: 10%;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.termos-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    text-align: center;
+    font-size: 1.3rem;
+    text-shadow: 1px 1px 10px #c5365c;
+}
+
+
+.botao {
+    border: none;
+    width: 400px;
+    height: 50px;
+    background-color: transparent;
+    color: #c5365c;
+    border: 2px solid #c5365c;
+    font-size: 1.5rem;
+    transition: 0.5s;
+    position: relative;
+}
+
+.botao:hover {
+    height: 60px;
+    font-size: 1.6rem;
+    background-color: #c5365c;
+    color: #fc9eb7;
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    font-size: 10px;
+    text-align: center;
 }
 
 @media screen and (max-width: 655px) {

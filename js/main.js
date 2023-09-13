@@ -1,18 +1,8 @@
-const retratos = document.querySelector('#retratos')
-const meiocorpo = document.querySelector('#meio-corpo')
-const corpointeiro = document.querySelector('#corpo-inteiro')
 const voltar = document.querySelector('#voltar')
+const terms = document.querySelector('#terms')
 
-retratos.addEventListener('click', () => {
-    window.location = '../retratos.html'
-})
-
-meiocorpo.addEventListener('click', () => {
-    window.location = '../meiocorpo.html'
-})
-
-corpointeiro.addEventListener('click', () => {
-    window.location = '../corpointeiro.html'
+terms.addEventListener('click', () => {
+    window.location = '../termos.html'
 })
 
 voltar.addEventListener('click', () => {
