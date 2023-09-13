@@ -53,7 +53,7 @@ body::before {
 }
 
 .container-kyo {
-    position: absolute;
+    position: relative;
     color: #c5365c;
     width: 60%;
     height: 90vh;
@@ -161,7 +161,7 @@ body::before {
 
 
 .ibuki {
-    width: 800px;
+    width: 900px;
     height: 1000px;
 }
 
@@ -188,11 +188,11 @@ body::before {
 }
 
 .termos-body {
-    position: relative;
+    position: static;
 }
 
 .termos {
-    position: relative;
+    position: static;
     color: #c5365c;
     padding: 10%;
     display: flex;
@@ -219,7 +219,7 @@ body::before {
     border: 2px solid #c5365c;
     font-size: 1.5rem;
     transition: 0.5s;
-    position: relative;
+    position: static;
 }
 
 .botao:hover {
@@ -236,14 +236,12 @@ footer {
     padding: 1rem;
     font-size: 10px;
     text-align: center;
-    position: relative;
+    position: static;
 }
 
 @media screen and (max-width: 765px) {
 
     .container-kyo {
-        position: absolute;
-        color: #c5365c;
         width: 100%;
         height: 120vh;
         display: flex;
@@ -275,8 +273,6 @@ footer {
 @media screen and (max-width: 655px) {
 
     .container-kyo {
-        position: absolute;
-        color: #c5365c;
         width: 90%;
         height: 100vh;
         display: flex;
@@ -342,6 +338,11 @@ footer {
 
     footer {
         font-size: 8px;
+    }
+
+    .nsfw {
+        width: 300px;
+        height: 450px;
     }
 
 
