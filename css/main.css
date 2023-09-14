@@ -188,11 +188,11 @@ body::before {
 }
 
 .termos-body {
-    position: static;
+    position: relative;
 }
 
 .termos {
-    position: static;
+    position: relative;
     color: #c5365c;
     padding: 10%;
     display: flex;
@@ -236,7 +236,7 @@ footer {
     padding: 1rem;
     font-size: 10px;
     text-align: center;
-    position: static;
+    position: relative;
 }
 
 @media screen and (max-width: 765px) {
