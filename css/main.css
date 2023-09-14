@@ -306,7 +306,7 @@ footer {
 
 }
 
-@media screen and (max-width: 365px) {
+@media screen and (max-width: 550px) {
 
     .botao {
         width: 300px;
