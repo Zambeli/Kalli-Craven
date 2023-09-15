@@ -351,3 +351,29 @@ footer {
 
 
 }
+
+@media screen and (max-width: 350px) {
+
+    .nome-kyo {
+        text-align: center;
+        font-size: 2rem;
+    }
+
+}
+
+@media screen and (max-width: 309px) {
+
+   .demonstraçoes {
+    width: 250px;
+    height: 250px;
+   }
+
+   .ibuki {
+    height: 350px;
+   }
+
+   .nsfw {
+    height: 380px;
+   }
+
+}
