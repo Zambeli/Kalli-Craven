@@ -376,4 +376,13 @@ footer {
     height: 380px;
    }
 
+   .tamanho {
+    padding-top: 6rem;
+   }
+
+   .termos {
+    padding: 0;
+    text-align: center;
+   }
+
 }
