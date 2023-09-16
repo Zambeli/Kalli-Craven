@@ -393,6 +393,20 @@ footer {
 
 @media screen and (max-width: 349px) {
 
+    .container-kyo {
+        padding: 0;
+    }
+
+    .botao {
+        width: 220px;
+        height: 50px;
+        font-size: 0.8rem;
+    }
+
+    .botao:hover {
+        font-size: 1rem;
+    }
+
    .demonstraçoes {
     width: 250px;
     height: 250px;
