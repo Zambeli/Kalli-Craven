@@ -437,7 +437,10 @@ footer {
 
     
 .espaço-botao {
-    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 2rem;
 }
 
 }
