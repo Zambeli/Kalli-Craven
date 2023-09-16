@@ -304,6 +304,12 @@ footer {
         height: 500px;
     }
 
+    .botao-kyo-princ {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+
 }
 
 @media screen and (max-width: 550px) {
@@ -352,16 +358,21 @@ footer {
 
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 550px) {
 
     .nome-kyo {
         text-align: center;
         font-size: 2rem;
     }
 
+    .termos {
+        padding: 0;
+        text-align: center;
+       }
+
 }
 
-@media screen and (max-width: 309px) {
+@media screen and (max-width: 349px) {
 
    .demonstraçoes {
     width: 250px;
@@ -384,5 +395,11 @@ footer {
     padding: 0;
     text-align: center;
    }
+
+   .botao-kyo-princ {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
 
 }
