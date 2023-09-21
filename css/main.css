@@ -240,7 +240,7 @@ footer {
     position: relative;
 }
 
-@media screen and (max-width: 765px) {
+@media screen and (max-width: 900px) {
 
     .container-kyo {
         width: 100%;
@@ -321,6 +321,7 @@ footer {
 
 }
 
+
 @media screen and (max-width: 550px) {
 
     .botao {
@@ -364,10 +365,6 @@ footer {
         padding-top: 8rem;
     }
 
-
-}
-
-@media screen and (max-width: 550px) {
 
     .nome-kyo {
         text-align: center;
